@@ -1,4 +1,5 @@
 game,ruleNumber,rule,why
+all, 1, Disziplin, Disziplin verhindert die größten Fehler.
 all, 1, Täglich max. 25% bankroll, Nichts ist 100%. You can always recover - except from catastrophic failure; 403-1 Statistik. Lakers home 17p lead in 4th verspielt.
 
 basketball, 1, back2back games bei schlechten Teams unberechenbar, Man weiß nie wer geschont wird und wie die Motivation ist
