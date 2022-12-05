@@ -9,6 +9,7 @@ function alerter(){
 }
 
 $(function(){
+    console.log("this hide");
     $("#b1").click(function(){
         $(this).hide();
     });
