@@ -9,8 +9,9 @@ function alerter(){
 }
 
 $(function(){
-    console.log("this hide");
+ 
     $("#b1").click(function(){
+        console.log("this hide");
         $(this).hide();
     });
     
