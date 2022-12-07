@@ -28,27 +28,72 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="96x96" href="../img/favicon-96x96.png">
-<script>
-  function alerter2(){
-    alert("msg");
-}
-</script>
-  <title>helper</title>
+  <script>
+    function alerter2() {
+      alert("msg");
+    }
+  </script>
+  <title>#winning</title>
 </head>
 
 <body>
   <div class="container mt-4">
-    <div>
-    <a href="rules.html">rules</a>
-    <a href="ko.html">ko</a>
-    <a href="szenarios.html">Szenarios</a>
-    <a href="epic-fails.html">Größten Fehler</a>
-    <a href="dos.html">Dos</a>
+    <!--nav-->
+    <section>
+      <div>
+        <a href="rules.html">rules</a>
+        <a href="ko.html">ko</a>
+        <a href="szenarios.html">Szenarios</a>
+        <a href="epic-fails.html">Größten Fehler</a>
+        <a href="dos.html">Dos</a>
+      </div>
+
+      <div>
+        <button id="b1" class="btn btn-info">button</button>
+      </div>
+    </section>
+
+    <h1 class="text-center text-bg-danger rounded mt-5" onclick="window.location='index.html'">BET: SAFETY CHECK</h1>
+    <p class="text-center">Bei 1+ DANGER ==> <span class="bg-success text-white p-2"><strong> SKIP</strong></span></p>
+    
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      <strong>All-in</strong> catastrophic failure.
+    </div>
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      <strong>Nrop</strong> Focused, standing, moving around?
     </div>
 
-    <div>
-      <button id="b1" class="btn btn-info">button</button>
+   
+    <div class="alert alert-warning alert-dismissible fade show text-end" role="alert">
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      <strong>Spontan</strong>
     </div>
+    
+
+    <div class="alert alert-success alert-dismissible fade show text-center" role="alert">
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      <strong> Ist es ein Geschenk des Systems?</strong>
+    </div>
+    <div class="alert alert-success alert-dismissible fade show text-center" role="alert">
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      <strong>Das Erwartete schon erfüllt?</strong>
+    </div>
+    <div class="alert alert-success alert-dismissible fade show text-center" role="alert">
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      <strong>Snezmutti</strong> Empfehlen?
+    </div>
+    <div class="alert alert-success alert-dismissible fade show text-center" role="alert">
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      <strong>NO changes == winning</strong>
+    </div>
+
+
+    <script>
+      $(".alert").alert();
+    </script>
+
   </div>
 
 
