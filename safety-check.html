@@ -53,25 +53,30 @@
       </div>
     </section>
 
-    <h1 class="text-center text-bg-danger rounded mt-5" onclick="window.location='index.html'">SAFETY CHECK</h1>
-    <p class="text-center">Bei 1+ DANGER ==> <span class="bg-success text-white p-2"><strong> SKIP</strong></span></p>
-    
+    <h1 class="text-center text-bg-danger rounded mt-5 safety" onclick="window.location='safety-check.html'" >SAFETY CHECK</h1>
+
+
+    <!--DANGER-->
     <div class="alert alert-danger alert-dismissible fade show" role="alert">
       <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-      <strong>All-in</strong> catastrophic failure.
+      <strong>All-in</strong> Catastrophic failure.
     </div>
     <div class="alert alert-danger alert-dismissible fade show" role="alert">
       <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
       <strong>Nrop</strong> Focused, standing, moving around?
     </div>
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      <strong>Early in the game</strong> Findungsphase. Fuck around => not yet found out.
+    </div>
 
-   
+    <!--WARNING-->
     <div class="alert alert-warning alert-dismissible fade show text-end" role="alert">
       <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
       <strong>Spontan</strong>
     </div>
-    
 
+    <!--SUCCESS-->
     <div class="alert alert-success alert-dismissible fade show text-center" role="alert">
       <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
       <strong> Ist es ein Geschenk des Systems?</strong>
@@ -89,6 +94,10 @@
       <strong>NO changes == winning</strong>
     </div>
 
+    <p class="text-center mt-5">Bei 1+ DANGER ==> <span class="bg-primary text-white p-2"><strong> SKIP</strong></span>
+    <br>    Das Ziel ist es nicht aggressiv zu gewinnen, sondern defensiv NICHT zu verlieren (Data). Stay alive. <br>
+    Pick the weak - auf Freebie warten!
+    </p>
 
     <script>
       $(".alert").alert();

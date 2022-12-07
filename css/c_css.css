@@ -3,3 +3,8 @@
 p.test {
     background-color: red;
 }
+
+.safety {
+    cursor: pointer;
+    margin: 15px 0;
+}
