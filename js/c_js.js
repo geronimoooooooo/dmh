@@ -14,5 +14,9 @@ $(function(){
         console.log("this hide");
         $(this).hide();
     });
+
+    $('.rules').click(function(){
+        $(this).hide();
+    });
     
 });

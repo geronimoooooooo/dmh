@@ -8,3 +8,11 @@ p.test {
     cursor: pointer;
     margin: 15px 0;
 }
+
+.delete {
+    display: none;
+}
+
+.rules {
+    
+}
