@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A simple HTML and CSS webpage">
+
+  <!--muss vor den anderen .js imports sein, wenn diese jquery code nutzen-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!-- Latest compiled and minified CSS for bootstrap-SELECT-->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/css/bootstrap-select.min.css">
+  <!-- Latest compiled and minified JavaScript for bootstrap-SELECT-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.1/js/bootstrap-select.min.js"></script>
+  <!-- Bootstrap Font Icon CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+
+  <script src="js/c_js.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/c_css.css">
+  <!-- bootstrap.css muss als letztes aufgelistet werden, ansonsten spackt irgendwas rum -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="icon" href="img/favicon.ico?v=2" type="image/vnd.microsoft.icon">
+  <link rel="icon" href="img/favicon.ico" type="image/vnd.microsoft.icon">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="../img/favicon-96x96.png">
+  <script>
+    function alerter2() {
+      alert("msg");
+    }
+  </script>
+  <title>#winning</title>
+</head>
+
+<body>
+  <div class="container mt-4">
+    <!--nav-->
+    <section>
+      <div>
+        <a href="rules.html">rules</a>
+        <a href="ko.html">ko</a>
+        <a href="szenarios.html">Szenarios</a>
+        <a href="epic-fails.html">Größten Fehler</a>
+        <a href="dos.html">Dos</a>
+      </div>
+    </section>
+
+    <h1 class="text-center text-bg-danger rounded mt-5 safety" onclick="window.location='safe-bet.html'">SAFE BET Basketball
+    </h1>
+    <div class="alert alert-primary text-center" role="alert">
+      <strong>Disziplin</strong>. Disziplin verhindert die größten Fehler.<strong> SKIP</strong>. Trust the Bookie.
+    </div>
+
+    <div class="alert alert-primary text-center" role="alert">
+      <strong>HOME court großer Vorteil!</strong> Hier kämpfen die Team um vor eigenem Publikum gut zu stehen und wollen gewinnen!
+    </div>
+    
+    <div class="alert alert-primary text-center" role="alert">
+      Das Ziel ist es nicht aggressiv zu gewinnen, sondern defensiv NICHT zu verlieren (Data). Stay alive.
+    </div>
+    
+
+    <!--DANGER-->
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      <strong>All-in</strong> Catastrophic failure. <strong>NICHTS ist safe.</strong> 1.1Q kann jederzeit umfallen. Täglich <strong>max. 25%.</strong>
+    </div>
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      <strong>Vor Spielstart. Early in the game</strong> Findungsphase. Fuck around => not yet found out.<strong> Kein ingame trend erkennbar</strong> da bet vor Spielanfang oder im 1.Q gemacht wird.
+    </div>
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      <strong>Einsatzleistung meines teams fehlt</strong>. Top Carries fehlen oder krank oder back2back games gehabt.
+    </div>
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      <strong>Nrop</strong> Focused, standing, moving around?
+    </div>
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      <strong>Großer Einsatz auf sehr niedrige Quote ohne 15p lead</strong> 
+    </div>
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      <strong>Stand wenn man verliert?</strong> 
+    </div>
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      <strong>Irrer Ivan Potential</strong> 
+    </div>
+
+
+    <!--WARNING-->
+    <div class="alert alert-warning alert-dismissible fade show text-end" role="alert">
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      <strong>Spontan</strong>
+    </div>
+    <div class="alert alert-warning alert-dismissible fade show text-end" role="alert">
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      Wette geht auf<strong> road team</strong>
+    </div>
+    <div class="alert alert-warning alert-dismissible fade show text-end" role="alert">
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      <strong>Was sagt die Lore?</strong>
+    </div>
+
+    <!--SUCCESS-->
+    <div class="alert alert-success alert-dismissible fade show text-center" role="alert">
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      <strong> Ist es ein Geschenk des Systems?</strong> Favorit, großer Lead, Ende des Spiels?
+    </div>
+    <div class="alert alert-success alert-dismissible fade show text-center" role="alert">
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      <strong>Das Erwartete schon erfüllt?</strong>
+    </div>
+    <div class="alert alert-success alert-dismissible fade show text-center" role="alert">
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      <strong>Snezmutti</strong> Empfehlen?
+    </div>
+    <div class="alert alert-success alert-dismissible fade show text-center" role="alert">
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      <strong>NO changes == winning</strong>
+    </div>
+
+    <p class="text-center mt-5">Bei 1+ DANGER und wenigen <span class="bg-success text-white p-1 rounded"> greens
+      </span> ==> <span class="bg-primary text-white p-2 rounded"><strong> SKIP</strong></span>
+    </p>
+    <p class="text-center "> Das Ziel ist es nicht aggressiv zu gewinnen, sondern defensiv NICHT zu verlieren (Data).
+      Stay alive. <br>
+      Pick the weak - auf Freebie warten!
+    </p>
+
+    <script>
+      $(".alert").alert();
+    </script>
+
+  </div>
+
+
+  <!-- #region tst-->
+  <!-- #endregion test-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
